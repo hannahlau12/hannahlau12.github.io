@@ -1,0 +1,19 @@
+:root {    
+    --bodyFont: 'Lora';
+    --titleFont: 'Playfair Display';
+   
+    --contentWidth: 900px;
+   
+    --bodyBackground: #fafafa;
+    --contentAreaBackground: #ffffff;
+    --inContentBackground: rgba(0,0,0,.03);
+    --accentColor: #8593ad;
+    --borderColor: #eaedf2;
+   
+    --baseFontSize: 1em;
+    --mainTextColor: #454951;
+    --alternateTextColor: #969ca5;
+    --headingTextColor: #232528;
+    --mainLinkColor: #8593ad;
+    --accentText: #f0f0f0;
+ 

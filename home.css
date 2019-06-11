@@ -1,0 +1,80 @@
+body {
+font-family:open sans;
+font-size:10px;
+line-height:15px;
+letter-spacing:.5px;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+color:#000;
+}
+
+hr {
+border:.5px solid #eee;
+width:280px;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+#container {
+width:300px;
+height:500px;
+margin: 0 auto;
+overflow:hidden;
+border:0px solid #000;
+border-radius:12px;
+padding:10px;
+margin-top:100px;
+margin-bottom:30px;
+box-shadow: 5px 4px 10px 5px #eee;
+}
+
+#name {
+font-family:arial;
+font-size:30px;
+font-weight:bold;
+text-transform:lowercase;
+letter-spacing:-2.5px;
+text-align:left;
+margin:7px;
+margin-top:15px;
+margin-bottom:-2px;
+}
+
+#info {
+font-family:open sans;
+font-size:10px;
+font-weight:none;
+text-transform:lowercase;
+letter-spacing:.5px;
+line-height:12px;
+text-align:left;
+padding:8px;
+margin: auto;
+}
+
+#photo img {
+width:290px;
+height:auto;
+margin:5px;
+}
+
+#nav {
+position:fixed;
+left:25px;
+top:20px;
+font-family:open sans;
+font-size:9px;
+font-weight:500;
+text-transform:lowercase;
+letter-spacing:1px;
+height:32px;
+border-left:1px solid #000;
+padding-left:15px;
+}
+
+#nav a {
+text-decoration:none;
+}
