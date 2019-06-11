@@ -1,0 +1,171 @@
+iframe.tmblr-iframe {
+    z-index:99999999999999!important;
+    top:0!important;
+    right:0!important;
+    opacity:0.6;
+    /* delete invert(1) from here */
+        filter:contrast(150%);
+        -webkit-filter:contrast(150%);
+        -o-filter:contrast(150%);
+        -moz-filter:contrast(150%);
+    /* to here if your blog has a dark background */
+    transform:scale(0.65);
+    transform-origin:100% 0;
+    -webkit-transform:scale(0.65);
+    -webkit-transform-origin:100% 0;
+    -o-transform:scale(0.65);
+    -o-transform-origin:100% 0;
+    -moz-transform:scale(0.65);
+    -moz-transform-origin:100% 0;
+    -ms-transform:scale(0.65);
+    -ms-transform-origin:100% 0;}
+ 
+iframe.tmblr-iframe:hover {
+    opacity:1!important;}
+ 
+#s-m-t-tooltip{
+    font-size:8px;
+    color:#000;
+    background-color:#fff;
+    letter-spacing:2px;
+    min-width:25px;
+    max-width:200px;
+    overflow:auto;
+    text-transform:uppercase;
+    font-style:italic;
+    display: none;
+    position: absolute;
+    z-index: 999999999999;
+    padding:5px;
+    margin:30px 0 15px 10px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;}
+ 
+    /* SCROLLBAR */
+   
+/* thanks @shythemes */
+  ::-webkit-scrollbar {
+      width:17px;
+      height:17px;
+  }
+ 
+  ::-webkit-scrollbar {
+      background-color: #fff; /* background color */
+  }
+ 
+  ::-webkit-scrollbar-track {
+      border:8px solid #fff; /* background color */
+      background-color: #000; /* light border color */
+  }
+ 
+  ::-webkit-scrollbar-thumb {
+      border:8px solid #fff; /* background color */
+      background-color: #bf0b0b; /* dark border color */
+      min-height:24px;
+      min-width:24px;
+  }
+  
+/* font */
+  body {
+      /* upload an image to imgur and get the direct link to put into the url() */
+      background: url(https://i.imgur.com/THjCFOq.png) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      font-family: "Open Sans", sans-serif;
+  }
+  
+/* main background color, text color */
+  #main {
+      margin-left: -315px;
+      margin-top: 70px;
+      margin-bottom: 73px;
+      left: 50%;
+      width: 630px;
+      height: 500px;
+      position: fixed;
+      background-color: #fff;
+      box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+      overflow-x:hidden;
+      color: black;
+  }
+
+  #main .nav {
+      height: 80px;
+      width: 600px;
+      float: left;
+      display: inline-block;
+      margin-bottom: 10px;
+  }
+  
+  #main .nav h3 {
+      margin-left: 22px;
+      margin-bottom: 0;
+  }
+ 
+ /* navigation links color, underline */ 
+  #main .nav a {
+      display: inline-block;
+      margin-left: 20px;
+      margin-top: 5px;
+      font-size: 12px;
+      color: black;
+      text-decoration: underline #bf0b0b;
+      -webkit-transition: color 0.5s;
+      -moz-transition: color 0.5s;
+      -o-transition: color 0.5s;
+      transition: color 0.5s;
+  }
+ 
+ /* nav links hover color */ 
+  #main .nav a:hover {
+      color: #bf0b0b;
+  }
+  
+  #main #bookshelf {
+      margin-top: 80px;
+  }
+  
+  #main #comics {
+      width: 150px;
+      display: inline-block;
+      vertical-align: top;
+  }
+  
+  #main #comics .comic-pic img {
+      height: 200px;
+      width: 125px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 0;
+  }
+   
+  #main #comics .comic-text h5 { 
+      margin-left: 20px;
+      margin-top: 3px;
+      margin-bottom: 0;
+      font-size: 12px;
+  }
+ 
+ /* comic title link color, underline */ 
+  #main #comics .comic-text a {
+      color: black;
+      text-decoration: underline #bf0b0b;
+      -webkit-transition: color 0.5s;
+      -moz-transition: color 0.5s;
+      -o-transition: color 0.5s;
+      transition: color 0.5s;
+  }
+  
+ /* comic title link hover */
+  #main #comics .comic-text a:hover {
+      color: #bf0b0b;
+  }
+  
+  #main #comics .comic-text p {
+      margin-top: 4px;
+      font-size: 10px;
+      margin-left: 20px;
+  }
