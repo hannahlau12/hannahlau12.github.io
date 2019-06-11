@@ -1,16 +1,67 @@
 <!DOCTYPE html>
-<html>
-    
-    <head>
-        <title>not you're average blog</title>
-        <link href="fontsfam.css" type="text/css" rel="stylesheet"/>
-    </head>
-    <body>
-        <center><h1>girl with zero to spare</h1></center>
+<head>
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+<title>come back</title>
+    <link href="morestylez.css" type="text/css" rel="stylesheet"/>  
 
-<div class="tab"><center>
-  <button class="home.html" onclick="openCity(event, 'Home')">home</button>
-  <button class="aboutme.html" onclick="openCity(event, 'About Me')">about me</button>
-  <button class="places.html" onclick="openCity(event, 'Places To Eat')">places to eat</button>
-    <button class="https://open.spotify.com/playlist/3gIQPLUh9ueczZRlIFOEls" onclick="openCity(event, 'Reccomendations')">music</button>
-</center></div>
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Anaheim|Karla:400,700" rel="stylesheet">
+</head>
+<body>
+
+<section>
+<div class="head">
+<img src="IMG_5071.JPG"/>
+
+<a href="home.html"><i class="lnr lnr-home" title="home"></i></a>
+<a href="aboutme.html"><i class="lnr lnr-envelope" title="about me"></i></a>
+<a href="index.html"><i class="lnr lnr-map" title="index"></i></a>
+
+<form action="/search" method="get" class="search">
+<input type="text" name="q" value="<3" class="query" placeholder="search blog">
+</form>
+</div>
+
+<div class="content">
+
+<div class="title">hey, you need to find something?</div>
+
+you've reached the page where if you need to locate a page, there will be links to guide you back to the beginning, middle, end. thanks for coming!
+
+<p>
+
+
+</div>
+
+<div class="links">
+    <a href="home.html"> come back home</a>
+    <a href="aboutme.html"> me me me</a>
+    <a href="reccomendations.html"> recs </a>
+    <a href="places.html"> food </a>
+    <a href="https://open.spotify.com/playlist/3gIQPLUh9ueczZRlIFOEls"> music </a>
+</div>
+
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>  
+<script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+
+<script>
+jQuery.noConflict();
+(function($){
+$(document).ready(function(){
+$("a[title],img[title],[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:30,
+tip_fade_speed:300,
+attribute:"title"
+});
+});
+})(jQuery); 
+</script> 
+
+</body>
+</html>
